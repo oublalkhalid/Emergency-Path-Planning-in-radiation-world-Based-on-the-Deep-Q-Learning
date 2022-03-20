@@ -1,8 +1,8 @@
 # Emergency-Path-Planning-in-radiation-world-Based-on-the-Deep-Q-Learning
-This code accompagne "Emergency Path Planning in radiation world Based on the Deep Q-Learning (DQL)", which is apparu on easychair.org conference of inf581-rl-2022.
+This code accompagne "Emergency Path Planning in radiation world Based on the Deep Q-Learning (DQL)", which is apparu on draft preprint easychair.org conference of inf581-rl-2022.
 
 ## About
-This project uses a deep reinforcement learning algorithm in association with a particle dynamics model to train agents to find the fastest path to evacuate a room with obstacles.
+This project uses a deep reinforcement learning algorithm in association with a particle dynamics model to train agents to find the fastest path to evacuate a human from radioactive building with presence of the enemy.
 
 Efficient emergency evacuation is crucial for survival. However, it is not clear if the application of the self-driven force of the social-force model results in optimal evacuation, especially in complex environments with obstacles of radiation. In this work, we developed a deep reinforcement learning algorithm in association with the social force model to train agents to find the fastest evacuation path. During training, we penalized every step of an agent in the room and gave zero reward at the exit. We adopted the Dyna-Q learning approach. We showed that our model can efficiently handle modeling of emergency evacuation in complex environments with multiple room exits and convex and concave obstacles where it is difficult to obtain an intuitive rule for fast evacuation using just the social force model.
 
