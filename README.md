@@ -1,5 +1,5 @@
 # Emergency-Path-Planning-in-radiation-world-Based-on-the-Deep-Q-Learning
-This code accompagne "Emergency Path Planning in radiation world Based on the Deep Q-Learning (DQL)", which is apparu on draft preprint easychair.org conference of inf581-rl-2022 [(The paper is available here)](docs/CONTRIBUTING.md).
+This code accompagne "Emergency Path Planning in radiation world Based on the Deep Q-Learning (DQL)", which is apparu on draft preprint easychair.org conference of inf581-rl-2022 [(The paper is available here)](https://drive.google.com/file/d/1VZAT00KhMzYD-Yx5Ygv5xlNH43MpbvZ6/view?usp=sharing).
 
 ## Abstact
 Robots are the best choice for rescue in many situations, such as in scenarios where there is nuclear radiation. For example, the leaks at the Chernobyl nuclear power plant and the Fukushima nuclear power plant in Japan.At the same time, remote control is often strongly interfered with in the presence of intense radiation, and the range of use of wired robots is very limited, so we want robots to be able to make their own choices in complex scenarios.This paper uses the reinforcement learning methods learned this semester: Q-learning and Deep Q learning to enable robots to make autonomous decisions about rescue solutions without human control. We make our robots learn in an abstract environment - similar to frozen lake.
