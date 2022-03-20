@@ -9,7 +9,7 @@ This project uses a deep reinforcement learning algorithm in association with a 
 
 Efficient emergency evacuation is crucial for survival. However, it is not clear if the application of the self-driven force of the social-force model results in optimal evacuation, especially in complex environments with obstacles of radiation. In this work, we developed a deep reinforcement learning algorithm in association with the social force model to train agents to find the fastest evacuation path. During training, we penalized every step of an agent in the room and gave zero reward at the exit. We adopted the Dyna-Q learning approach. We showed that our model can efficiently handle modeling of emergency evacuation in complex environments with multiple room exits and convex and concave obstacles where it is difficult to obtain an intuitive rule for fast evacuation using just the social force model.
 
-![Game map](img/scenario.png)
+![Game map](img/senario_2.png)
 
 ## Setup
 *Note:* This code was designed to be used with Python 3.6.13, and is not compatible with later versions.
