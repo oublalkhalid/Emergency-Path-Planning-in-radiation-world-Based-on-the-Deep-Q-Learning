@@ -14,36 +14,24 @@ To install this project's package dependencies, please run the following command
 
     pip install -r requirements.txt
 
-## Train
-This project provides framework to train an agent for emergency evacuation in two scenarios:
-
-1. An empty room with four exits. To train this model, run the following command:
-```
-    python .py
-```
-
-2. A room with three exits and two obstacles. To train this model, run the following command:
-```
-    python .py
-```
-
 ## Test
-A built-in testing script can be used to assess generalization capabilities, illustrating the optimal policy learned by an agent during training. A pre-trained policy has been included in the model folder, which can be tested for reference. To run the testing framework, you can use the following command:
+This project provides framework to train an agent for emergency evacuation in two scenarios.
 
-    python .py
-
+Our work on this project is summarized in a workbook that you can run in less than 10 minutes.
+ 
+```
+Emergency_Path_Planning_in_radiation_world_Based_on_the_Deep_Q_Learning.ipynb
+```
 
 
 ## Cite
 
 To reference this work, please use the following:
 ```
-[1]  In  Lecture  III  -Q-learning.INF581 Advanced Machine Learning andAutonomous Agents, 2022.
-
-[2]  G.  A.  Rummery  and  M.  Niranjan  On-line  Q-learning  using  connection-ist systems. https://www.researchgate.net/publication/2500611On-LineQ-LearningUsingConnectionistSystems, 1994.
-
-[3]  C.  J.  C.  H.  Watkins  and  P.  Dayan  ,  Technical  note  q-learning.  https://link.springer.com/article/10.1023/A:1022676722315, 1992.
-
-[4]  V. Mnih, K. Kavukcuoglu, and D. S. et al Human-level control throughdeep reinforcement learning. https://daiwk.github.io/assets/dqn.pdf, 2015.
-
+@article{pathdeepqlearning,
+  title={Emergency Path Planning in radiation world Based on the Deep Q-Learning (DQL)},
+  author={Khalid Oublal, Xinyi DAI, Yutong Meng},
+  year={2022},
+  publisher={Ecole Polytechnique}
+}
 ```
