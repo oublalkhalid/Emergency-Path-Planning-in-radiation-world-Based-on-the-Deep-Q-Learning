@@ -19,8 +19,13 @@ To install this project's package dependencies, please run the following command
 ```
 git clone https://github.com/oublalkhalid/Emergency-Path-Planning-in-radiation-world-Based-on-the-Deep-Q-Learning.git
 cd Emergency-Path-Planning-in-radiation-world-Based-on-the-Deep-Q-Learning-main
+```
 
+```
 pip install -r requirements.txt
+```
+
+```
 cd main
 python2 Controller.py
 ```
