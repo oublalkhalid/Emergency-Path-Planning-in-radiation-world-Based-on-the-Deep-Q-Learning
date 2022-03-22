@@ -25,10 +25,16 @@ This project provides framework to train an agent for emergency evacuation in tw
 python2 Controller.py
 ```
 
-Our work on this project is summarized in a workbook that you can run in less than 10 minutes.
+2- Our work on this project is summarized in a notebook that you can run in less than 10 minutes (in this case you don't need to install gym because here our environment has been built from scratch).
  
 ```
 Emergency_Path_Planning_in_radiation_world_Based_on_the_Deep_Q_Learning.ipynb
+```
+
+- To display the environment made with gym AI open pose you have to run this command in the same main directory, please note that in this case you have to install the requirement before.
+
+```
+pythoné path_project_env.py --env MiniGrid-ObstructedMaze-Full-v0
 ```
 ## Result
 
