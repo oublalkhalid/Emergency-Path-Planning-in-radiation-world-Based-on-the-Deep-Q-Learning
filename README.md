@@ -16,13 +16,12 @@ Efficient emergency evacuation is crucial for survival. However, it is not clear
 
 To install this project's package dependencies, please run the following command:
 
-    pip install -r requirements.txt
-
-Alternatively
 ```
-git clone https://github.com/maximecb/gym-minigrid.git
+git clone https://github.com/oublalkhalid/Emergency-Path-Planning-in-radiation-world-Based-on-the-Deep-Q-Learning.git
+cd Emergency-Path-Planning-in-radiation-world-Based-on-the-Deep-Q-Learning-main
+
+pip install -r requirements.txt
 cd main
-pip install -e .
 python2 Controller.py
 ```
 
