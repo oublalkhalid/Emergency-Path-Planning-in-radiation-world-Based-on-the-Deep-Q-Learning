@@ -19,13 +19,13 @@ To install this project's package dependencies, please run the following command
     pip install -r requirements.txt
 
 ## Test
-This project provides framework to train an agent for emergency evacuation in two scenarios.
+1. This project provides framework to train an agent for emergency evacuation in two scenarios.
 - Please move to the main direction and run this command
 ```
 python2 Controller.py
 ```
 
-2- Our work on this project is summarized in a notebook that you can run in less than 10 minutes (in this case you don't need to install gym because here our environment has been built from scratch).
+2. Our work on this project is summarized in a notebook that you can run in less than 10 minutes (in this case you don't need to install gym because here our environment has been built from scratch).
  
 ```
 Emergency_Path_Planning_in_radiation_world_Based_on_the_Deep_Q_Learning.ipynb
