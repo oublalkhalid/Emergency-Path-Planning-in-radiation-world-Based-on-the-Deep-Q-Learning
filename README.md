@@ -18,6 +18,14 @@ To install this project's package dependencies, please run the following command
 
     pip install -r requirements.txt
 
+Alternatively
+```
+git clone https://github.com/maximecb/gym-minigrid.git
+cd main
+pip install -e .
+python2 Controller.py
+```
+
 ## Test
 1. This project provides framework to train an agent for emergency evacuation in two scenarios.
 - Please move to the main direction and run this command
