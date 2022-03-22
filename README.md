@@ -20,6 +20,10 @@ To install this project's package dependencies, please run the following command
 
 ## Test
 This project provides framework to train an agent for emergency evacuation in two scenarios.
+- Please move to the main direction and run this command
+```
+python2 Controller.py
+```
 
 Our work on this project is summarized in a workbook that you can run in less than 10 minutes.
  
@@ -28,13 +32,13 @@ Emergency_Path_Planning_in_radiation_world_Based_on_the_Deep_Q_Learning.ipynb
 ```
 ## Result
 
-|    |   Simulation |   SARSA |   Qleraning |   DeepQlearning |
-|---:|-------------:|--------:|------------:|----------------:|
-|  0 |            1 |   16318 |       17711 |           23304 |
-|  1 |            2 |   16259 |       17881 |           23437 |
-|  2 |            3 |   16590 |       17065 |           23469 |
-|  3 |            4 |   16539 |       17217 |           23241 |
-|  4 |            5 |   16421 |       17270 |           23234 |
+|   Simulation |   SARSA |   Qleraning |   DeepQlearning |
+|-------------:|--------:|------------:|----------------:|
+|            1 |   16318 |       17711 |           23304 |
+|            2 |   16259 |       17881 |           23437 |
+|            3 |   16590 |       17065 |           23469 |
+|            4 |   16539 |       17217 |           23241 |
+|            5 |   16421 |       17270 |           23234 |
 
 ## Cite
 
